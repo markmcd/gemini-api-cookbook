@@ -1,8 +1,6 @@
 name: Issue metrics
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 1 * *"  # First of the month, midnight UTC
 
 permissions:
   contents: read
